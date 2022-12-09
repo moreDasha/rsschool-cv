@@ -1,0 +1,9 @@
+div{
+    height: 40px;
+    width: 40px;
+    margin: 0 auto;
+    background-color: darkslategrey;
+}
+p{
+    color: gold;
+}
