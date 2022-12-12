@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url("../assets/fonts/MontserratAlternates-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url("../assets/fonts/MontserratAlternates-ExtraBold.ttf");
+    font-weight: 800;
+    font-style: normal;
+}
+body{
+    font-family: 'Montserrat Alternates';
+}
+.container{
+    max-width: 1210px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.decor-container{
+    width: 410px;
+    display: flex;
+    justify-content: space-between;
+}
+.rectangle-1{
+    width: 83px;
+    background-color: #3350AE;
+}
+.rectangle-2{
+    width: 287px;
+    background-color: #3350AE;
+}
+.header-title{
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 75px;
+    font-weight: 800;
+    color: #3350AE;
+}
+.header-subtitle{
+    margin: 0;
+    font-size: 40px;
+    color: #3350AE;
+}
+.header-content-container{
+    padding-top: 62px;
+    margin-bottom: 86px;
+    text-align: right;
+}
