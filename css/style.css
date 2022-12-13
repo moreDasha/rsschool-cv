@@ -14,6 +14,12 @@
     font-style: normal;
 }
 body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-family: 'Montserrat Alternates';
 }
 .container{
@@ -35,15 +41,16 @@ body{
     width: 287px;
     background-color: #3350AE;
 }
+.content-container{
+    width: 730px;
+}
 .header-title{
-    margin: 0;
     margin-bottom: 5px;
     font-size: 75px;
     font-weight: 800;
     color: #3350AE;
 }
 .header-subtitle{
-    margin: 0;
     font-size: 40px;
     color: #3350AE;
 }
@@ -51,4 +58,176 @@ body{
     padding-top: 62px;
     margin-bottom: 86px;
     text-align: right;
+}
+.title{
+    margin-bottom: 32px;
+    font-size: 30px;
+    color: #3350AE;
+    font-weight: 800;
+}
+.contacts-secnion{
+    margin-bottom: 95px;
+}
+.contact-list{
+    display: flex;
+    flex-direction: row;
+    color: #3350AE;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.list-titel{
+    margin-right: 45px;
+}
+.list-title-items{
+    margin-bottom: 12px;
+    font-weight: 800;
+}
+.list-info-items{
+    margin-bottom: 12px;
+}
+.icon-box{
+    display: flex;
+    flex-direction: row;
+}
+.icon-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 100px;
+    margin-right: 50px;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.summary-section{
+    margin-bottom: 70px;
+}
+.summary-text{
+    font-size: 20px;
+    color: #3350AE;
+}
+.education-skills-section{
+    display: flex;
+    justify-content: space-between;
+}
+.education-text{
+    font-size: 20px;
+    color: #3350AE;
+    line-height: 1.5;
+}
+.education-text-black{
+    color: black;
+}
+.education-text-bold{
+    font-weight: 800;
+}
+.skills-titles{
+    margin-bottom: 11px;
+    font-size: 20px;
+    color: #3350AE;
+}
+.skills-hr{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 17px;
+}
+.hr-blue-html{
+    width: 260px;
+    border: none;
+    border-top: 4px solid #3350AE;
+    margin: 0px;
+}
+.hr-grey-html{
+    width: 45px;
+    border: none;
+    border-top: 4px solid #D9D9D9;
+    margin: 0px;
+}
+.hr-blue-css{
+    width: 250px;
+    border: none;
+    border-top: 4px solid #3350AE;
+    margin: 0px;
+}
+.hr-grey-css{
+    width: 55px;
+    border: none;
+    border-top: 4px solid #D9D9D9;
+    margin: 0px;
+}
+.hr-blue-js{
+    width: 55px;
+    border: none;
+    border-top: 4px solid #3350AE;
+    margin: 0px;
+}
+.hr-grey-js{
+    width: 250px;
+    border: none;
+    border-top: 4px solid #D9D9D9;
+    margin: 0px;
+}
+.hr-blue-git{
+    width: 140px;
+    border: none;
+    border-top: 4px solid #3350AE;
+    margin: 0px;
+}
+.hr-grey-git{
+    width: 165px;
+    border: none;
+    border-top: 4px solid #D9D9D9;
+    margin: 0px;
+}
+.code-subtitle{
+    font-size: 20px;
+    font-weight: 500;
+}
+.code-box{
+    width: 540px;
+    height: 251px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    margin-bottom: 67px;
+    background-color: #F7F8FA;
+}
+.code-content{
+    font-size: 20px;
+}
+.languages-content{
+    margin-bottom: 70px;
+    font-size: 20px;
+    color: #3350AE;
+}
+.languages-content-bold{
+    font-weight: 800;
+}
+.footer-content-container{
+    height: 123px;
+    width: 730px;
+    border-top: 4px solid #D9D9D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-text{
+    font-size: 18px;
+    color: #3350AE;
+}
+.footer-links{
+    display: flex;
+    flex-direction: row;
+}
+.links-git{
+    margin-right: 35px;
+}
+.rsschool-logo{
+    height: 40px;
 }

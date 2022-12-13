@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/43f9b51c6b.js" crossorigin="anonymous"></script>
     <meta name="description" content="Junior Front-End Developer">
 </head>
 <body>
@@ -17,7 +18,7 @@
                 <div class="rectangle-1"></div>
                 <div class="rectangle-2"></div>
             </div>
-            <div class="header-content-container">
+            <div class="header-content-container content-container">
                 <h1 class="header-title">Darya Karpeeva</h1>
                 <p class="header-subtitle">junior front-end developer</p>
             </div>
@@ -29,15 +30,102 @@
                 <div class="rectangle-1"></div>
                 <div class="rectangle-2"></div>
             </div>
-            <div class="main-content-container">
-                <h2 class="contact-title title">contact</h2>
-                <ul class="contact-titel">
-
-                </ul>
+            <div class="main-content-container content-container">
+                <section class="contacts-secnion" id="contact">
+                    <h2 class="title">contact</h2>
+                    <div class="contact-list">
+                        <ul class="list-titel">
+                            <li class="list-title-items">Location:</li>
+                            <li class="list-title-items">Phone:</li>
+                            <li class="list-title-items">Discord:</li>
+                        </ul>
+                        <ul class="list-info">
+                             <li class="list-info-items">Batumi, Georgia</li>
+                             <li class="list-info-items">+995 557 464234</li>
+                             <li class="list-info-items">moreDasha#5539</li>
+                        </ul>
+                    </div>
+                    <ul class="icon-box">
+                        <li class="icon-item"><a href="https://github.com/moreDasha"><i class="fa-brands fa-github"></i></a></li>
+                        <li class="icon-item"><a href="mailto:moredasha@icloud.com"><i class="fa-solid fa-envelope"></i></a></li>
+                        <li class="icon-item"><a href="https://t.me/golddasha"><i class="fa-brands fa-telegram"></i></a></li>
+                    </ul>
+                </section>
+                <section class="summary-section" id="summary">
+                    <h2 class="title">about me</h2>
+                    <p class="summary-text">
+                        I love to learn everything new and exciting. And I can spend a lot of time doing what interests me.
+                        <br> I am attentive to details, assiduous and patient
+                        <br> I started my way in learning by studying HTML code.
+                        <br> I would like to become a specialist in front-end development and I am ready to make every effort to achieve this.
+                    </p>
+                </section>
+                <section class="education-skills-section" id="education-skills">
+                    <div class="education-part">
+                        <h2 class="title">education</h2>
+                        <p class="education-text">
+                            <span class="education-text-black">sept 2022 - nov 2022</span><br><span class="education-text-bold">stepik -</span><br>HTML coding and <br> web-development course
+                        </p>
+                    </div>
+                    <div class="skills-part">
+                        <h2 class="title">skills</h2>
+                        <div class="skills-items">
+                            <p class="skills-titles">HTML</p>
+                            <div class="skills-hr">
+                                <hr class="hr-blue-html">
+                                <hr class="hr-grey-html">
+                            </div>
+                            <p class="skills-titles">CSS / SASS / BEM</p>
+                            <div class="skills-hr">
+                                <hr class="hr-blue-css">
+                                <hr class="hr-grey-css">
+                            </div>
+                            <p class="skills-titles">JS BASIC</p>
+                            <div class="skills-hr">
+                                <hr class="hr-blue-js">
+                                <hr class="hr-grey-js">
+                            </div>
+                            <p class="skills-titles">GIT &amp; GITHUB</p>
+                            <div class="skills-hr">
+                                <hr class="hr-blue-git">
+                                <hr class="hr-grey-git">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="code-section" id="code">
+                    <h2 class="title">code example <br><span class="code-subtitle">from codewars</span></h2>
+                    <div class="code-box"><code class="code-content">
+                        function beetween(a,b) {<br>
+                            &nbsp;&nbsp;const arry = [];<br>
+                            &nbsp;&nbsp;for(let i = a; i &lt;= b; i++){<br>
+                            &nbsp;&nbsp;arry.push(i) <br>
+                            &nbsp;&nbsp;}<br>
+                            &nbsp;&nbsp;return arry<br>
+                         }
+                    </code></div>
+                </section>
+                <section class="languages-section" id="languages">
+                    <h2 class="title">languages</h2>
+                    <p class="languages-content"><span class="languages-content-bold">English - </span>A2 (Elementary)</p>
+                </section>
             </div>
         </div>
     </main>
     <footer class="footer">
+        <div class="container">
+            <div class="decor-container">
+                <div class="rectangle-1"></div>
+                <div class="rectangle-2"></div>
+            </div>
+            <div class="footer-content-container contant-container">
+                <p class="footer-text">2022 by Darya Karpeeva</p>
+                <div class="footer-links">
+                    <div class="links-git icon-item"><a href="https://github.com/moreDasha"><i class="fa-brands fa-github"></i></a></div>
+                    <div class="links-rsschool"> <a href="https://rs.school/js/"><img class="rsschool-logo" src="assets/img/rs_school_js.svg" alt="rsschool-logo"></a></div>
+                </div>
+            </div>
+        </div>
     </footer>
 
 
