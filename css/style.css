@@ -69,7 +69,7 @@ li:last-child{
 }
 .nav-menu-link{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     color: black
 }
 .header-title{
@@ -240,6 +240,18 @@ li:last-child{
     border-top: 4px solid #D9D9D9;
     margin: 0px;
 }
+.project-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 67px;
+}
+.site-photo{
+    width: 340px;
+    height: 272px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 .code-subtitle{
     font-size: 20px;
     font-weight: 500;
@@ -258,7 +270,7 @@ li:last-child{
 }
 .grid-horizontal-2{
     position: absolute;
-    top: 1350px;
+    top: 1715px;
     right: 120px;
     z-index: -1;
 }
@@ -266,7 +278,7 @@ li:last-child{
     display: flex;
     flex-direction: row;
     position: absolute;
-    top: 1300px;
+    top: 1665px;
     right: 105px;
     z-index: -1;
 }
