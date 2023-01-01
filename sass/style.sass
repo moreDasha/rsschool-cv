@@ -23,13 +23,14 @@
 $color-blue: #3350AE
 $color-grey: #D9D9D9
 .container
-    max-width: 1210px
+    max-width: 1250px
     margin: 0 auto
+    padding: 0 20px
     display: flex
     justify-content: space-between
 
 .decor-container
-    width: 410px
+    width: 32.8%
     margin-right: 20px
     position: relative
     display: flex
@@ -37,13 +38,15 @@ $color-grey: #D9D9D9
 
 .rectangle-1
     width: 83px
-    background-color: #3350AE
+    background-color: $color-blue
 
 .rectangle-2
     width: 287px
-    background-color: #3350AE
+    background-color: $color-blue
 
 .my-photo
+    width: 410px
+    height: 505px
     position: absolute
     top: 100px
     right: -15px
@@ -51,7 +54,7 @@ $color-grey: #D9D9D9
     z-index: 2
 
 .content-container
-    width: 730px
+    width: 58.4%
 
 .header-nav-menu
     margin-bottom: 67px
@@ -63,9 +66,8 @@ $color-grey: #D9D9D9
 
 .nav-menu-item
     margin-right: 25px
-
-li:last-child
-    margin-right: 0
+    &:last-child
+        margin-right: 0
 
 .nav-menu-link
     text-decoration: none
@@ -76,11 +78,11 @@ li:last-child
     margin-bottom: 5px
     font-size: 75px
     font-weight: 800
-    color: #3350AE
+    color: $color-blue
 
 .header-subtitle
     font-size: 40px
-    color: #3350AE
+    color: $color-blue
 
 .header-content-container
     padding-top: 40px
@@ -90,7 +92,7 @@ li:last-child
 .title
     margin-bottom: 32px
     font-size: 30px
-    color: #3350AE
+    color: $color-blue
     font-weight: 800
 
 .contacts-secnion
@@ -99,7 +101,7 @@ li:last-child
 .contact-list
     display: flex
     flex-direction: row
-    color: #3350AE
+    color: $color-blue
     font-size: 20px
     margin-bottom: 20px
 
@@ -165,7 +167,7 @@ li:last-child
 
 .summary-text
     font-size: 20px
-    color: #3350AE
+    color: $color-blue
 
 .education-skills-section
     display: flex
@@ -173,7 +175,7 @@ li:last-child
 
 .education-text
     font-size: 20px
-    color: #3350AE
+    color: $color-blue
     line-height: 1.5
 
 .education-text-black
@@ -185,7 +187,7 @@ li:last-child
 .skills-titles
     margin-bottom: 11px
     font-size: 20px
-    color: #3350AE
+    color: $color-blue
 
 .skills-hr
     display: flex
@@ -195,49 +197,49 @@ li:last-child
 .hr-blue-html
     width: 260px
     border: none
-    border-top: 4px solid #3350AE
+    border-top: 4px solid $color-blue
     margin: 0px
 
 .hr-grey-html
     width: 45px
     border: none
-    border-top: 4px solid #D9D9D9
+    border-top: 4px solid $color-grey
     margin: 0px
 
 .hr-blue-css
     width: 250px
     border: none
-    border-top: 4px solid #3350AE
+    border-top: 4px solid $color-blue
     margin: 0px
 
 .hr-grey-css
     width: 55px
     border: none
-    border-top: 4px solid #D9D9D9
+    border-top: 4px solid $color-grey
     margin: 0px
 
 .hr-blue-js
     width: 55px
     border: none
-    border-top: 4px solid #3350AE
+    border-top: 4px solid $color-blue
     margin: 0px
 
 .hr-grey-js
     width: 250px
     border: none
-    border-top: 4px solid #D9D9D9
+    border-top: 4px solid $color-grey
     margin: 0px
 
 .hr-blue-git
     width: 140px
     border: none
-    border-top: 4px solid #3350AE
+    border-top: 4px solid $color-blue
     margin: 0px
 
 .hr-grey-git
     width: 165px
     border: none
-    border-top: 4px solid #D9D9D9
+    border-top: 4px solid $color-grey
     margin: 0px
 
 .project-link
@@ -285,7 +287,7 @@ li:last-child
 .languages-content
     margin-bottom: 70px
     font-size: 20px
-    color: #3350AE
+    color: $color-blue
 
 .languages-content-bold
     font-weight: 800
@@ -293,7 +295,7 @@ li:last-child
 .footer-content-container
     height: 123px
     width: 730px
-    border-top: 4px solid #D9D9D9
+    border-top: 4px solid $color-grey
     display: flex
     flex-direction: row
     justify-content: space-between
@@ -312,3 +314,5 @@ li:last-child
 
 .rsschool-logo
     height: 40px
+
+@import "tablet.sass"
