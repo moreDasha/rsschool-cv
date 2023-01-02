@@ -1,0 +1,330 @@
+@import "resets.scss"
+@import "normalizes.scss"
+*
+    box-sizing: border-box
+@font-face 
+    font-family: "Montserrat Alternates"
+    src: url('../assets/fonts/MontserratAlternates-Medium.ttf')
+    font-weight: 500
+    font-style: normal
+@font-face 
+    font-family: "Montserrat Alternates"
+    src: url('../assets/fonts/MontserratAlternates-ExtraBold.ttf')
+    font-weight: 800
+    font-style: normal
+.page-body
+    min-height: 100vh
+    margin: 0
+    padding: 0
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    font-family: "Montserrat Alternates"
+$color-blue: #3350AE
+$color-grey: #D9D9D9
+.container
+    max-width: 1250px
+    margin: 0 auto
+    padding: 0 20px
+    display: flex
+    justify-content: space-between
+
+.decor-container
+    width: 32.8%
+    margin-right: 20px
+    position: relative
+    display: flex
+    justify-content: space-between
+
+.rectangle-1
+    width: 83px
+    background-color: $color-blue
+
+.rectangle-2
+    width: 287px
+    background-color: $color-blue
+
+.my-photo-box
+    width: 397px
+    height: 495px
+    position: absolute
+    top: 100px
+    right: -15px
+    border-radius: 100px
+    z-index: 2
+
+.my-photo
+    width: 397px
+    height: 495px
+    border-radius: 100px
+
+.content-container
+    width: 58.4%
+    position: relative
+
+.header-nav-menu
+    margin-bottom: 67px
+
+.nav-menu-list
+    display: flex
+    flex-direction: row
+    justify-content: flex-end
+
+.nav-menu-item
+    margin-right: 25px
+    &:last-child
+        margin-right: 0
+
+.nav-menu-link
+    text-decoration: none
+    font-size: 16px
+    color: black
+
+.header-title
+    margin-bottom: 5px
+    font-size: 75px
+    font-weight: 800
+    color: $color-blue
+
+.header-subtitle
+    font-size: 40px
+    color: $color-blue
+
+.header-content-container
+    padding-top: 40px
+    margin-bottom: 86px
+    text-align: right
+
+.title
+    margin-bottom: 32px
+    font-size: 30px
+    color: $color-blue
+    font-weight: 800
+
+.contacts-secnion
+    margin-bottom: 95px
+
+.contact-list
+    display: flex
+    flex-direction: row
+    color: $color-blue
+    font-size: 20px
+    margin-bottom: 20px
+
+.list-titel
+    margin-right: 45px
+
+.list-title-items
+    margin-bottom: 12px
+    font-weight: 800
+
+.list-info-items
+    margin-bottom: 12px
+
+.icon-box
+    display: flex
+    flex-direction: row
+
+.icon-item
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 40px
+    height: 40px
+    border: 1px solid black
+    border-radius: 100px
+    margin-right: 50px
+    font-size: 25px
+    &:last-child
+        margin-right: 0px
+
+.icon-item-link
+    text-decoration: none
+    color: black
+
+.grid-horizontal-1
+    position: absolute
+    top: -230px
+    right: 90px
+    z-index: -1
+
+.horizontal
+    width: 640px
+    border: none
+    border-top: 1px solid #D9D9D9
+    margin: 0px
+    margin-bottom: 60px
+
+.grid-vertically-1
+    display: flex
+    flex-direction: row
+    position: absolute
+    top: -280px
+    right: 70px
+    z-index: -1
+
+.vertically
+    height: 520px
+    border: none
+    border-right: 1px solid #D9D9D9
+    margin: 0px
+    margin-right: 60px
+
+.summary-section
+    margin-bottom: 70px
+
+.summary-text
+    font-size: 20px
+    color: $color-blue
+
+.education-skills-section
+    display: flex
+    justify-content: space-between
+
+.education-text
+    font-size: 20px
+    color: $color-blue
+    line-height: 1.5
+
+.education-text-black
+    color: black
+
+.education-text-bold
+    font-weight: 800
+
+.skills-titles
+    margin-bottom: 11px
+    font-size: 20px
+    color: $color-blue
+
+.skills-hr
+    display: flex
+    flex-direction: row
+    margin-bottom: 17px
+
+.hr-blue-html
+    width: 260px
+    border: none
+    border-top: 4px solid $color-blue
+    margin: 0px
+
+.hr-grey-html
+    width: 45px
+    border: none
+    border-top: 4px solid $color-grey
+    margin: 0px
+
+.hr-blue-css
+    width: 250px
+    border: none
+    border-top: 4px solid $color-blue
+    margin: 0px
+
+.hr-grey-css
+    width: 55px
+    border: none
+    border-top: 4px solid $color-grey
+    margin: 0px
+
+.hr-blue-js
+    width: 55px
+    border: none
+    border-top: 4px solid $color-blue
+    margin: 0px
+
+.hr-grey-js
+    width: 250px
+    border: none
+    border-top: 4px solid $color-grey
+    margin: 0px
+
+.hr-blue-git
+    width: 140px
+    border: none
+    border-top: 4px solid $color-blue
+    margin: 0px
+
+.hr-grey-git
+    width: 165px
+    border: none
+    border-top: 4px solid $color-grey
+    margin: 0px
+
+.project-link
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    margin-bottom: 67px
+
+.site-photo
+    width: 340px
+    height: 272px
+    border-radius: 50px
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+
+.code-section
+    position: relative
+
+.code-subtitle
+    font-size: 20px
+    font-weight: 500
+
+.code-box
+    width: 540px
+    height: 251px
+    display: flex
+    align-items: center
+    padding-left: 25px
+    margin-bottom: 67px
+    background-color: #F7F8FA
+
+.code-content
+    font-size: 20px
+
+.grid-horizontal-2
+    position: absolute
+    top: 100px
+    right: 0px
+    z-index: -1
+
+.grid-vertically-2
+    display: flex
+    flex-direction: row
+    position: absolute
+    top: 50px
+    right: 0px
+    z-index: -1
+
+.languages-content
+    margin-bottom: 70px
+    font-size: 20px
+    color: $color-blue
+
+.languages-content-bold
+    font-weight: 800
+
+.footer-content-container
+    height: 123px
+    width: 730px
+    border-top: 4px solid $color-grey
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+
+.footer-text
+    font-size: 18px
+    color: #3350AE
+
+.footer-links
+    display: flex
+    flex-direction: row
+
+.links-git
+    margin-right: 35px
+
+.rsschool-logo
+    height: 40px
+
+@import "tablet.sass"
+@import "mobile.sass"
