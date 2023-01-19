@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/43f9b51c6b.js" crossorigin="anonymous"></script>
+    <script defer src="js/index.js"></script>
     <meta name="description" content="Junior Front-End Developer">
 </head>
 <body class="page-body">
@@ -22,13 +23,18 @@
                 </div>
             </div>
             <div class="header-content-container content-container">
+                <button class="burger-button" id="burger-button">
+                    <span class="burger-button__span"></span>
+                    <span class="burger-button__span"></span>
+                    <span class="burger-button__span"></span>
+                </button>
                 <nav class="header-nav-menu">
                     <ul class="nav-menu-list">
                         <li class="nav-menu-item"><a class="nav-menu-link" href="#contacts">contacts</a></li>
                         <li class="nav-menu-item"><a class="nav-menu-link" href="#summary">about me</a></li>
-                        <li class="nav-menu-item"><a class="nav-menu-link" href="#education-skills">education</a></li>
+                        <li class="nav-menu-item"><a class="nav-menu-link" href="#education">education</a></li>
+                        <li class="nav-menu-item"><a class="nav-menu-link" href="#skills">skills</a></li>
                         <li class="nav-menu-item"><a class="nav-menu-link" href="#projects">projects</a></li>
-                        <li class="nav-menu-item"><a class="nav-menu-link" href="#education-skills">skills</a></li>
                         <li class="nav-menu-item"><a class="nav-menu-link" href="#code">code example</a></li>
                         <li class="nav-menu-item"><a class="nav-menu-link" href="#languages">languages</a></li>
                     </ul>
@@ -96,14 +102,17 @@
                         <br> I would like to become a specialist in front-end development and I am ready to make every effort to achieve this.
                     </p>
                 </section>
-                <section class="education-skills-section" id="education-skills">
-                    <div class="education-part">
+                <section class="education-skills-section">
+                    <div class="education-part" id="education">
                         <h2 class="title">education</h2>
-                        <p class="education-text">
+                        <p class="education-text education-text_top">
                             <span class="education-text-black">sept 2022 - nov 2022</span><br><span class="education-text-bold">stepik -</span><br>HTML coding and <br> web-development course
                         </p>
+                        <p class="education-text">
+                            <span class="education-text-black">in process</span><br><span class="education-text-bold">R.S. School -</span><br>JS/Frontend development <br>course <br>Preparatory stage
+                        </p>
                     </div>
-                    <div class="skills-part">
+                    <div class="skills-part" id="skills">
                         <h2 class="title">skills</h2>
                         <div class="skills-items">
                             <p class="skills-titles">HTML</p>
@@ -134,6 +143,7 @@
                     <div class="project-link">
                         <a class="project-link-portfolio" href="https://moredasha.github.io/project-portfolio/"><img class="site-photo" src="assets/img/portfolio.jpg" alt="rsschool-logo"></a>
                         <a class="project-link-agency" href="https://moredasha.github.io/project-creative_agency/"><img class="site-photo" src="assets/img/creative-agency.jpg" alt="rsschool-logo"></a>
+                        <a class="project-link-plants" href="https://rolling-scopes-school.github.io/moredasha-JSFEPRESCHOOL2022Q4/plants/"><img class="site-photo" src="assets/img/plants.jpg" alt="rsschool-logo"></a>
                     </div>
                 </section>
                 <section class="code-section" id="code">

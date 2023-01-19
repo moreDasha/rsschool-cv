@@ -1,1 +1,1298 @@
-html,body,body div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,time,mark,audio,video,details,summary{margin:0;padding:0;border:0;font-size:100%;font-weight:normal;vertical-align:baseline;background:transparent}article,aside,figure,footer,header,nav,section,details,summary{display:block}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,object,embed{max-width:100%}html{overflow-y:scroll}ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help}table{border-collapse:collapse;border-spacing:0}th{font-weight:bold;vertical-align:bottom}td{font-weight:normal;vertical-align:top}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}pre{white-space:pre;white-space:pre-wrap;white-space:pre-line;word-wrap:break-word}input[type="radio"]{vertical-align:text-bottom}input[type="checkbox"]{vertical-align:bottom}.ie7 input[type="checkbox"]{vertical-align:baseline}.ie6 input{vertical-align:text-bottom}select,input,textarea{font:99% sans-serif}table{font-size:inherit;font:100%}small{font-size:85%}strong{font-weight:bold}td,td img{vertical-align:top}sub,sup{font-size:75%;line-height:0;position:relative}sup{top:-0.5em}sub{bottom:-0.25em}pre,code,kbd,samp{font-family:monospace, sans-serif}.clickable,label,input[type=button],input[type=submit],input[type=file],button{cursor:pointer}button,input,select,textarea{margin:0}button,input[type=button]{width:auto;overflow:visible}.ie7 img{-ms-interpolation-mode:bicubic}.clearfix:before,.clearfix:after{content:"\0020";display:block;height:0;overflow:hidden}.clearfix:after{clear:both}.clearfix{zoom:1}html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:0.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"] button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:0.35em 0.75em 0.625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{outline-offset:-2px}[type="search"]::-webkit-search-decoration ::-webkit-file-upload-button{font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}*{box-sizing:border-box}@font-face{font-family:"Montserrat Alternates";src:url("../assets/fonts/MontserratAlternates-Medium.ttf");font-weight:500;font-style:normal}@font-face{font-family:"Montserrat Alternates";src:url("../assets/fonts/MontserratAlternates-ExtraBold.ttf");font-weight:800;font-style:normal}.page-body{min-height:100vh;margin:0;padding:0;display:flex;flex-direction:column;justify-content:space-between;font-family:"Montserrat Alternates"}.container{max-width:1250px;margin:0 auto;padding:0 20px;display:flex;justify-content:space-between}.decor-container{width:32.8%;margin-right:20px;position:relative;display:flex;justify-content:space-between}.rectangle-1{width:83px;background-color:#3350AE}.rectangle-2{width:287px;background-color:#3350AE}.my-photo-box{width:397px;height:495px;position:absolute;top:100px;right:-15px;border-radius:100px;z-index:2}.my-photo{width:397px;height:495px;border-radius:100px}.content-container{width:58.4%;position:relative}.header-nav-menu{margin-bottom:67px}.nav-menu-list{display:flex;flex-direction:row;justify-content:flex-end}.nav-menu-item{margin-right:25px}.nav-menu-item:last-child{margin-right:0}.nav-menu-link{text-decoration:none;font-size:16px;color:black}.header-title{margin-bottom:5px;font-size:75px;font-weight:800;color:#3350AE}.header-subtitle{font-size:40px;color:#3350AE}.header-content-container{padding-top:40px;margin-bottom:86px;text-align:right}.title{margin-bottom:32px;font-size:30px;color:#3350AE;font-weight:800}.contacts-secnion{margin-bottom:95px}.contact-list{display:flex;flex-direction:row;color:#3350AE;font-size:20px;margin-bottom:20px}.list-titel{margin-right:45px}.list-title-items{margin-bottom:12px;font-weight:800}.list-info-items{margin-bottom:12px}.icon-box{display:flex;flex-direction:row}.icon-item{display:flex;justify-content:center;align-items:center;width:40px;height:40px;border:1px solid black;border-radius:100px;margin-right:50px;font-size:25px}.icon-item:last-child{margin-right:0px}.icon-item-link{text-decoration:none;color:black}.grid-horizontal-1{position:absolute;top:-230px;right:90px;z-index:-1}.horizontal{width:640px;border:none;border-top:1px solid #D9D9D9;margin:0px;margin-bottom:60px}.grid-vertically-1{display:flex;flex-direction:row;position:absolute;top:-280px;right:70px;z-index:-1}.vertically{height:520px;border:none;border-right:1px solid #D9D9D9;margin:0px;margin-right:60px}.summary-section{margin-bottom:70px}.summary-text{font-size:20px;color:#3350AE}.education-skills-section{display:flex;justify-content:space-between}.education-text{font-size:20px;color:#3350AE;line-height:1.5}.education-text-black{color:black}.education-text-bold{font-weight:800}.skills-titles{margin-bottom:11px;font-size:20px;color:#3350AE}.skills-hr{display:flex;flex-direction:row;margin-bottom:17px}.hr-blue-html{width:260px;border:none;border-top:4px solid #3350AE;margin:0px}.hr-grey-html{width:45px;border:none;border-top:4px solid #D9D9D9;margin:0px}.hr-blue-css{width:250px;border:none;border-top:4px solid #3350AE;margin:0px}.hr-grey-css{width:55px;border:none;border-top:4px solid #D9D9D9;margin:0px}.hr-blue-js{width:55px;border:none;border-top:4px solid #3350AE;margin:0px}.hr-grey-js{width:250px;border:none;border-top:4px solid #D9D9D9;margin:0px}.hr-blue-git{width:140px;border:none;border-top:4px solid #3350AE;margin:0px}.hr-grey-git{width:165px;border:none;border-top:4px solid #D9D9D9;margin:0px}.project-link{display:flex;flex-direction:row;justify-content:space-between;margin-bottom:67px}.site-photo{width:340px;height:272px;border-radius:50px;box-shadow:0px 4px 4px rgba(0,0,0,0.25)}.code-section{position:relative}.code-subtitle{font-size:20px;font-weight:500}.code-box{width:540px;height:251px;display:flex;align-items:center;padding-left:25px;margin-bottom:67px;background-color:#F7F8FA}.code-content{font-size:20px}.grid-horizontal-2{position:absolute;top:100px;right:0px;z-index:-1}.grid-vertically-2{display:flex;flex-direction:row;position:absolute;top:50px;right:0px;z-index:-1}.languages-content{margin-bottom:70px;font-size:20px;color:#3350AE}.languages-content-bold{font-weight:800}.footer-content-container{height:123px;width:730px;border-top:4px solid #D9D9D9;display:flex;flex-direction:row;justify-content:space-between;align-items:center}.footer-text{font-size:18px;color:#3350AE}.footer-links{display:flex;flex-direction:row}.links-git{margin-right:35px}.rsschool-logo{height:40px}@media (max-width: 1199px){.container{width:768px}.decor-container{width:220px}.rectangle-1{width:50px}.rectangle-2{width:150px}.my-photo-box{width:273px;height:341px;border-radius:60px;top:170px;right:-75px}.my-photo{width:273px;height:341px;border-radius:60px}.content-container{width:490px}.header-nav-menu{margin-bottom:57px}.nav-menu-item{margin-right:15px}.nav-menu-link{font-size:11px}.header-content-container{margin-bottom:74px}.header-title{font-size:50px}.header-subtitle{font-size:25px}.title{margin-bottom:30px;font-size:25px}.contacts-secnion{margin-bottom:50px;display:flex;flex-direction:column;align-items:flex-end}.contacts-title{padding-right:210px}.contact-list{margin-bottom:18px}.icon-box{padding-right:105px}.education-skills-section{margin-bottom:50px;flex-direction:column;justify-content:flex-start}.education-part{margin-bottom:50px}.project-link{margin-bottom:50px}.site-photo{width:220px;height:176px;border-radius:30px}.code-box{width:447px;height:200px;padding-left:20px;margin-bottom:50px}.footer-content-container{height:123px;width:488px}.footer-text{font-size:14px}.grid-horizontal-1{top:-160px;right:20px}.grid-vertically-1{top:-210px;right:0px}.grid-horizontal-2{top:0px;right:0px}.grid-vertically-2{top:-50px;right:0px}}@media (max-width: 767px){.container{width:100%;padding:0 15px;justify-content:center}.decor-container{width:65px;position:relative}.rectangle-1{width:15px}.rectangle-2{width:40px}.content-container{width:260px}.my-photo-box{width:154px;height:192px;border-radius:30px;top:30px;right:-105px}.my-photo{width:154px;height:192px;border-radius:30px}.header-nav-menu{display:none;margin-bottom:10px}.header-content-container{display:flex;flex-direction:column;align-items:flex-end}.header-title{width:156px;font-size:30px;text-align:right}.header-subtitle{width:159px;font-size:18px}.title{margin-bottom:20px;font-size:16px}.contacts-secnion{margin-bottom:35px;align-items:flex-start}.contacts-title{padding-right:0px}.icon-box{padding-right:0px}.icon-item{width:30px;height:30px;font-size:18px}.contact-list{font-size:14px;margin-bottom:10px}.list-titel{margin-right:12px}.list-title-items{margin-bottom:10px}.list-info-items{margin-bottom:10px}.summary-section{margin-bottom:35px}.summary-text{font-size:14px}.education-skills-section{margin-bottom:35px}.education-text{font-size:14px}.skills-titles{font-size:14px}.hr-blue-html{width:200px}.hr-grey-html{width:40px}.hr-blue-css{width:180px}.hr-grey-css{width:60px}.hr-blue-js{width:20px}.hr-grey-js{width:220px}.hr-blue-git{width:80px}.hr-grey-git{width:160px}.project-link{flex-direction:column;justify-content:flex-start;margin-bottom:35px}.project-link-portfolio{margin-bottom:25px}.code-subtitle{font-size:14px}.code-box{width:236px;height:135px;padding-left:10px;margin-bottom:35px}.code-content{font-size:12px}.languages-content{margin-bottom:40px;font-size:14px}.footer-content-container{height:120px;width:260px;padding:20px 0;flex-direction:column;justify-content:center;align-items:center}.footer-text{order:2}.footer-links{order:1;margin-bottom:20px}.rsschool-logo{height:30px}.horizontal{width:280px;margin-bottom:25px}.vertically{height:230px;margin-right:25px}.grid-horizontal-1{top:-165px;right:0px}.grid-vertically-1{top:-190px;right:0px}.grid-horizontal-2{top:110px;right:0px}.grid-vertically-2{top:85px;right:0px}}
+/* Let's default this puppy out
+-------------------------------------------------------------------------------*/
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+article, aside, figure, footer, header, nav, section, details, summary {
+  display: block;
+}
+
+/* Handle box-sizing while better addressing child elements:
+   https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
+/* Responsive images and other embedded objects
+*/
+img,
+object,
+embed {
+  max-width: 100%;
+}
+
+/*
+   Note: keeping IMG here will cause problems if you're using foreground images as sprites.
+	 In fact, it *will* cause problems with Google Maps' controls at small size.
+	If this is the case for you, try uncommenting the following:
+
+#map img {
+		max-width: none;
+}
+*/
+/* force a vertical scrollbar to prevent a jumpy page */
+html {
+  overflow-y: scroll;
+}
+
+/* we use a lot of ULs that aren't bulleted.
+	don't forget to restore the bullets within content. */
+ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help;
+}
+
+/* tables still need cellspacing="0" in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th {
+  font-weight: bold;
+  vertical-align: bottom;
+}
+
+td {
+  font-weight: normal;
+  vertical-align: top;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+pre {
+  white-space: pre; /* CSS2 */
+  white-space: pre-wrap; /* CSS 2.1 */
+  white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word; /* IE */
+}
+
+input[type=radio] {
+  vertical-align: text-bottom;
+}
+
+input[type=checkbox] {
+  vertical-align: bottom;
+}
+
+.ie7 input[type=checkbox] {
+  vertical-align: baseline;
+}
+
+.ie6 input {
+  vertical-align: text-bottom;
+}
+
+select, input, textarea {
+  font: 99% sans-serif;
+}
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+small {
+  font-size: 85%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+td, td img {
+  vertical-align: top;
+}
+
+/* Make sure sup and sub don't mess with your line-heights https://gist.github.com/413930 */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* standardize any monospaced elements */
+pre, code, kbd, samp {
+  font-family: monospace, sans-serif;
+}
+
+/* hand cursor on clickable elements */
+.clickable,
+label,
+input[type=button],
+input[type=submit],
+input[type=file],
+button {
+  cursor: pointer;
+}
+
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+button, input, select, textarea {
+  margin: 0;
+}
+
+/* make buttons play nice in IE */
+button,
+input[type=button] {
+  width: auto;
+  overflow: visible;
+}
+
+/* scale images in IE7 more attractively */
+.ie7 img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* prevent BG image flicker upon hover
+   (commented out as usage is rare, and the filter syntax messes with some pre-processors)
+.ie6 html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+*/
+/* let's clear some floats */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration ::-webkit-file-upload-button {
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Montserrat Alternates";
+  src: url("../assets/fonts/MontserratAlternates-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat Alternates";
+  src: url("../assets/fonts/MontserratAlternates-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.page-body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Montserrat Alternates";
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.decor-container {
+  width: 32.8%;
+  margin-right: 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rectangle-1 {
+  width: 83px;
+  background-color: #3350AE;
+}
+
+.rectangle-2 {
+  width: 287px;
+  background-color: #3350AE;
+}
+
+.my-photo-box {
+  width: 397px;
+  height: 495px;
+  position: absolute;
+  top: 100px;
+  right: -15px;
+  border-radius: 100px;
+  z-index: 2;
+}
+
+.my-photo {
+  width: 397px;
+  height: 495px;
+  border-radius: 100px;
+}
+
+.content-container {
+  width: 58.4%;
+  position: relative;
+}
+
+.header-nav-menu {
+  margin-bottom: 67px;
+}
+
+.nav-menu-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav-menu-item {
+  margin-right: 25px;
+}
+.nav-menu-item:last-child {
+  margin-right: 0;
+}
+
+.nav-menu-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+.nav-menu-link:hover {
+  color: #3350AE;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-title {
+  margin-bottom: 5px;
+  font-size: 75px;
+  font-weight: 800;
+  color: #3350AE;
+}
+
+.header-subtitle {
+  font-size: 40px;
+  color: #3350AE;
+}
+
+.header-content-container {
+  padding-top: 40px;
+  margin-bottom: 86px;
+  text-align: right;
+}
+
+.title {
+  margin-bottom: 32px;
+  font-size: 30px;
+  color: #3350AE;
+  font-weight: 800;
+}
+
+.contacts-secnion {
+  margin-bottom: 95px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: row;
+  color: #3350AE;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.list-titel {
+  margin-right: 45px;
+}
+
+.list-title-items {
+  margin-bottom: 12px;
+  font-weight: 800;
+}
+
+.list-info-items {
+  margin-bottom: 12px;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 100px;
+  margin-right: 50px;
+  font-size: 25px;
+}
+.icon-item:last-child {
+  margin-right: 0px;
+}
+
+.icon-item-link {
+  text-decoration: none;
+  color: black;
+}
+.icon-item-link:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.03);
+}
+
+.grid-horizontal-1 {
+  position: absolute;
+  top: -230px;
+  right: 90px;
+  z-index: -1;
+}
+
+.horizontal {
+  width: 640px;
+  border: none;
+  border-top: 1px solid #D9D9D9;
+  margin: 0px;
+  margin-bottom: 60px;
+}
+
+.grid-vertically-1 {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: -280px;
+  right: 70px;
+  z-index: -1;
+}
+
+.vertically {
+  height: 520px;
+  border: none;
+  border-right: 1px solid #D9D9D9;
+  margin: 0px;
+  margin-right: 60px;
+}
+
+.summary-section {
+  margin-bottom: 70px;
+}
+
+.summary-text {
+  font-size: 20px;
+  color: #3350AE;
+}
+
+.education-skills-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 67px;
+}
+
+.education-text {
+  font-size: 20px;
+  color: #3350AE;
+  line-height: 1.5;
+}
+.education-text_top {
+  margin-bottom: 30px;
+}
+
+.education-text-black {
+  color: black;
+}
+
+.education-text-bold {
+  font-weight: 800;
+}
+
+.skills-titles {
+  margin-bottom: 11px;
+  font-size: 20px;
+  color: #3350AE;
+}
+
+.skills-hr {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 17px;
+}
+
+.hr-blue-html {
+  width: 260px;
+  border: none;
+  border-top: 4px solid #3350AE;
+  margin: 0px;
+}
+
+.hr-grey-html {
+  width: 45px;
+  border: none;
+  border-top: 4px solid #D9D9D9;
+  margin: 0px;
+}
+
+.hr-blue-css {
+  width: 250px;
+  border: none;
+  border-top: 4px solid #3350AE;
+  margin: 0px;
+}
+
+.hr-grey-css {
+  width: 55px;
+  border: none;
+  border-top: 4px solid #D9D9D9;
+  margin: 0px;
+}
+
+.hr-blue-js {
+  width: 55px;
+  border: none;
+  border-top: 4px solid #3350AE;
+  margin: 0px;
+}
+
+.hr-grey-js {
+  width: 250px;
+  border: none;
+  border-top: 4px solid #D9D9D9;
+  margin: 0px;
+}
+
+.hr-blue-git {
+  width: 140px;
+  border: none;
+  border-top: 4px solid #3350AE;
+  margin: 0px;
+}
+
+.hr-grey-git {
+  width: 165px;
+  border: none;
+  border-top: 4px solid #D9D9D9;
+  margin: 0px;
+}
+
+.project-link {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 67px;
+}
+
+.site-photo {
+  width: 330px;
+  height: 264px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.site-photo:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+
+.code-section {
+  position: relative;
+}
+
+.code-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.code-box {
+  width: 540px;
+  height: 251px;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  margin-bottom: 67px;
+  background-color: #F7F8FA;
+}
+
+.code-content {
+  font-size: 20px;
+}
+
+.grid-horizontal-2 {
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  z-index: -1;
+}
+
+.grid-vertically-2 {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  z-index: -1;
+}
+
+.languages-content {
+  margin-bottom: 70px;
+  font-size: 20px;
+  color: #3350AE;
+}
+
+.languages-content-bold {
+  font-weight: 800;
+}
+
+.footer-content-container {
+  height: 123px;
+  width: 730px;
+  border-top: 4px solid #D9D9D9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 18px;
+  color: #3350AE;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.links-git {
+  margin-right: 35px;
+}
+
+.rsschool-logo {
+  height: 40px;
+}
+.rsschool-logo:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.03);
+}
+
+.burger-button {
+  display: none;
+  position: relative;
+  width: 28px;
+  height: 28px;
+  border: none;
+  background-color: transparent;
+  margin-bottom: 24px;
+  padding: 0px;
+}
+.burger-button__span {
+  position: absolute;
+  z-index: 4;
+  top: 10px;
+  left: 0px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50px;
+  background-color: #3350AE;
+  transition: transform 0.3s;
+}
+.burger-button__span:nth-child(1) {
+  transform: translateX(10px);
+}
+.burger-button__span:nth-child(2) {
+  transform: translateX(20px);
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 768px;
+  }
+  .decor-container {
+    width: 220px;
+  }
+  .rectangle-1 {
+    width: 50px;
+  }
+  .rectangle-2 {
+    width: 150px;
+  }
+  .my-photo-box {
+    width: 273px;
+    height: 341px;
+    border-radius: 60px;
+    top: 170px;
+    right: -75px;
+  }
+  .my-photo {
+    width: 273px;
+    height: 341px;
+    border-radius: 60px;
+  }
+  .content-container {
+    width: 490px;
+  }
+  .header-nav-menu {
+    margin-bottom: 57px;
+  }
+  .nav-menu-item {
+    margin-right: 15px;
+  }
+  .nav-menu-link {
+    font-size: 11px;
+  }
+  .header-content-container {
+    margin-bottom: 74px;
+  }
+  .header-title {
+    font-size: 50px;
+  }
+  .header-subtitle {
+    font-size: 25px;
+  }
+  .title {
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+  .contacts-secnion {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .contacts-title {
+    padding-right: 210px;
+  }
+  .contact-list {
+    margin-bottom: 18px;
+  }
+  .icon-box {
+    padding-right: 105px;
+  }
+  .education-skills-section {
+    margin-bottom: 50px;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .education-part {
+    margin-bottom: 50px;
+  }
+  .project-link {
+    margin-bottom: 50px;
+  }
+  .site-photo {
+    width: 220px;
+    height: 176px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+  }
+  .code-box {
+    width: 447px;
+    height: 200px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+  }
+  .footer-content-container {
+    height: 123px;
+    width: 488px;
+  }
+  .footer-text {
+    font-size: 14px;
+  }
+  .grid-horizontal-1 {
+    top: -160px;
+    right: 20px;
+  }
+  .grid-vertically-1 {
+    top: -210px;
+    right: 0px;
+  }
+  .grid-horizontal-2 {
+    top: 0px;
+    right: 0px;
+  }
+  .grid-vertically-2 {
+    top: -50px;
+    right: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+    justify-content: center;
+  }
+  .decor-container {
+    width: 65px;
+    position: relative;
+  }
+  .rectangle-1 {
+    width: 15px;
+  }
+  .rectangle-2 {
+    width: 40px;
+  }
+  .content-container {
+    width: 260px;
+  }
+  .my-photo-box {
+    width: 154px;
+    height: 192px;
+    border-radius: 30px;
+    top: 30px;
+    right: -105px;
+  }
+  .my-photo {
+    width: 154px;
+    height: 192px;
+    border-radius: 30px;
+  }
+  .burger-button {
+    display: block;
+    z-index: 4;
+  }
+  .header.open .header-nav-menu {
+    transform: translateY(100%);
+  }
+  .header.open .burger-button__span:nth-child(1) {
+    transform: translateY(-9px);
+  }
+  .header.open .burger-button__span:nth-child(2) {
+    transform: translateY(9px);
+  }
+  .header-nav-menu {
+    position: absolute;
+    z-index: 2;
+    top: -440px;
+    right: 0px;
+    width: 200px;
+    height: 430px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 86px;
+    margin-bottom: 0px;
+    transition: transform 0.3s;
+  }
+  .nav-menu-list {
+    height: 297px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-menu-link {
+    font-size: 16px;
+  }
+  .header-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 30px;
+    margin-bottom: 35px;
+  }
+  .header-title {
+    width: 156px;
+    font-size: 30px;
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  .header-subtitle {
+    width: 159px;
+    font-size: 18px;
+  }
+  .title {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .contacts-secnion {
+    margin-bottom: 35px;
+    align-items: flex-start;
+  }
+  .contacts-title {
+    padding-right: 0px;
+  }
+  .icon-box {
+    padding-right: 0px;
+  }
+  .icon-item {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+  }
+  .contact-list {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .list-titel {
+    margin-right: 12px;
+  }
+  .list-title-items {
+    margin-bottom: 10px;
+  }
+  .list-info-items {
+    margin-bottom: 10px;
+  }
+  .summary-section {
+    margin-bottom: 35px;
+  }
+  .summary-text {
+    font-size: 14px;
+  }
+  .education-skills-section {
+    margin-bottom: 35px;
+  }
+  .education-text_top {
+    margin-bottom: 15px;
+  }
+  .education-text {
+    font-size: 14px;
+  }
+  .skills-titles {
+    font-size: 14px;
+  }
+  .hr-blue-html {
+    width: 200px;
+  }
+  .hr-grey-html {
+    width: 40px;
+  }
+  .hr-blue-css {
+    width: 180px;
+  }
+  .hr-grey-css {
+    width: 60px;
+  }
+  .hr-blue-js {
+    width: 20px;
+  }
+  .hr-grey-js {
+    width: 220px;
+  }
+  .hr-blue-git {
+    width: 80px;
+  }
+  .hr-grey-git {
+    width: 160px;
+  }
+  .project-link {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 35px;
+  }
+  .code-subtitle {
+    font-size: 14px;
+  }
+  .code-box {
+    width: 236px;
+    height: 135px;
+    padding-left: 10px;
+    margin-bottom: 35px;
+  }
+  .code-content {
+    font-size: 12px;
+  }
+  .languages-content {
+    margin-bottom: 40px;
+    font-size: 14px;
+  }
+  .footer-content-container {
+    height: 120px;
+    width: 260px;
+    padding: 20px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-text {
+    order: 2;
+  }
+  .footer-links {
+    order: 1;
+    margin-bottom: 20px;
+  }
+  .rsschool-logo {
+    height: 30px;
+  }
+  .horizontal {
+    width: 280px;
+    margin-bottom: 25px;
+  }
+  .vertically {
+    height: 230px;
+    margin-right: 25px;
+  }
+  .grid-horizontal-1 {
+    top: -200px;
+    right: 0px;
+  }
+  .grid-vertically-1 {
+    top: -225px;
+    right: 0px;
+  }
+  .grid-horizontal-2 {
+    top: 110px;
+    right: 0px;
+  }
+  .grid-vertically-2 {
+    top: 85px;
+    right: 0px;
+  }
+}/*# sourceMappingURL=style.css.map */
