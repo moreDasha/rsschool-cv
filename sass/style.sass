@@ -1,5 +1,5 @@
-@import "resets.scss"
-@import "normalizes.scss"
+@import "_resets.scss"
+@import "_normalizes.scss"
 *
     box-sizing: border-box
 @font-face 
@@ -12,6 +12,10 @@
     src: url('../assets/fonts/MontserratAlternates-ExtraBold.ttf')
     font-weight: 800
     font-style: normal
+
+html
+    scroll-behavior: smooth
+
 .page-body
     min-height: 100vh
     margin: 0
@@ -22,6 +26,7 @@
     font-family: "Montserrat Alternates"
 $color-blue: #3350AE
 $color-grey: #D9D9D9
+
 .container
     max-width: 1250px
     margin: 0 auto
@@ -79,6 +84,9 @@ $color-grey: #D9D9D9
     text-decoration: none
     font-size: 16px
     color: black
+    &:hover
+        color: $color-blue
+        transition: all 0.3s ease-in-out
 
 .header-title
     margin-bottom: 5px
@@ -141,6 +149,9 @@ $color-grey: #D9D9D9
 .icon-item-link
     text-decoration: none
     color: black
+    &:hover
+        transition: all 0.3s ease-in-out
+        transform: scale(1.03)
 
 .grid-horizontal-1
     position: absolute
@@ -180,11 +191,14 @@ $color-grey: #D9D9D9
 .education-skills-section
     display: flex
     justify-content: space-between
+    margin-bottom: 67px
 
 .education-text
     font-size: 20px
     color: $color-blue
     line-height: 1.5
+    &_top
+        margin-bottom: 30px
 
 .education-text-black
     color: black
@@ -253,14 +267,20 @@ $color-grey: #D9D9D9
 .project-link
     display: flex
     flex-direction: row
+    flex-wrap: wrap
     justify-content: space-between
     margin-bottom: 67px
 
 .site-photo
-    width: 340px
-    height: 272px
+    width: 330px
+    height: 264px
     border-radius: 50px
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    margin-bottom: 20px
+    margin-right: 10px
+    &:hover
+        transition: all 0.3s ease-in-out
+        transform: scale(1.05)
 
 .code-section
     position: relative
@@ -325,6 +345,33 @@ $color-grey: #D9D9D9
 
 .rsschool-logo
     height: 40px
+    &:hover
+        transition: all 0.3s ease-in-out
+        transform: scale(1.03)
 
-@import "tablet.sass"
-@import "mobile.sass"
+.burger-button
+    display: none
+    position: relative
+    width: 28px
+    height: 28px
+    border: none
+    background-color: transparent
+    margin-bottom: 24px
+    padding: 0px
+    &__span
+        position: absolute
+        z-index: 4
+        top: 10px
+        left: 0px
+        width: 6px
+        height: 6px
+        border-radius: 50px
+        background-color: $color-blue
+        transition: transform .3s
+    &__span:nth-child(1)
+        transform: translateX(10px)
+    &__span:nth-child(2)
+        transform: translateX(20px)
+
+@import "_tablet.sass"
+@import "_mobile.sass"

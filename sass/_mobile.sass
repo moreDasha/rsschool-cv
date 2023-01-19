@@ -22,17 +22,48 @@
         width: 154px
         height: 192px
         border-radius: 30px
+    .burger-button
+        display: block
+        z-index: 4
+    .header.open .header-nav-menu
+        transform: translateY(100%)
+    .header.open .burger-button__span:nth-child(1)
+        transform: translateY(-9px)
+    .header.open .burger-button__span:nth-child(2)
+        transform: translateY(9px)
     .header-nav-menu
-        display: none
-        margin-bottom: 10px
+        position: absolute
+        z-index: 2
+        top: -440px
+        right: 0px
+        width: 200px
+        height: 430px
+        background-color: #fff
+        border-radius: 30px
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        padding-top: 86px
+        margin-bottom: 0px
+        transition: transform .3s
+    .nav-menu-list
+        height: 297px
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: space-between
+    .nav-menu-link
+        font-size: 16px
     .header-content-container
         display: flex
         flex-direction: column
         align-items: flex-end
+        padding-top: 30px
+        margin-bottom: 35px
     .header-title
         width: 156px
         font-size: 30px
         text-align: right
+        margin-top: 0px
+        margin-bottom: 30px
     .header-subtitle
         width: 159px
         font-size: 18px
@@ -66,6 +97,9 @@
     .education-skills-section
         margin-bottom: 35px
     .education-text
+        &_top
+            margin-bottom: 15px
+    .education-text
         font-size: 14px
     .skills-titles
         font-size: 14px
@@ -89,8 +123,6 @@
         flex-direction: column
         justify-content: flex-start
         margin-bottom: 35px
-    .project-link-portfolio
-        margin-bottom: 25px
     .code-subtitle
         font-size: 14px
     .code-box
@@ -124,10 +156,10 @@
         height: 230px
         margin-right: 25px
     .grid-horizontal-1
-        top: -165px
+        top: -200px
         right: 0px
     .grid-vertically-1
-        top: -190px
+        top: -225px
         right: 0px
 
     .grid-horizontal-2
